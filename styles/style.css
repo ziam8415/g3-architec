@@ -133,6 +133,9 @@
         max-width: 85%;
         text-align: center;
     }
+    .banner-description{
+        max-width: 85%;
+    }
     .quick-img-container{
         grid-template-columns: 1fr;
         gap: 10px;
