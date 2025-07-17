@@ -179,6 +179,7 @@ main{
 
 .features-img{
     max-width: 45%;
+    border: 2px solid blue;
 }
 .features-img img{
     width: 100%;
@@ -201,7 +202,8 @@ main{
 /* responsive for mobile */
 @media screen and (max-width:576px) {
     .navbar,
-    .quick-list
+    .quick-list,
+    .features-container
     {
         flex-direction: column;
         text-align: center;
@@ -225,6 +227,35 @@ main{
     }
     .quick-description h2{
         font-size: 2rem;
+    }
+
+
+    .features-container{
+    max-width: 100%;
+    margin: 80px auto;
+    align-items: center;
+    gap: 10%;
+    }
+    .feature-description{
+    width: 100%;
+    }
+
+    
+    .features-img{
+    max-width: 100%;
+    }
+
+    .features-img button{
+    margin: 10px auto;
+    }
+
+    .year{
+    font-size: 1.5rem;
+    font-weight: 700;
+    }
+    .exp{
+    font-size: 1rem;
+    font-weight: 500;
     }
 
 
