@@ -135,6 +135,12 @@
     .banner-description{
         max-width: 100%;
     }
+    .banner-description h1{
+        font-size: 2rem;
+    }
+    .quick-description h2{
+        font-size: 2rem;
+    }
     .quick-list{
         max-width: 100%;
     }
