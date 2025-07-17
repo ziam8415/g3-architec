@@ -36,9 +36,6 @@
     padding: 10px 20px;
 }
 
-main{
-    background-color: #E7E7E7;;
-}
 
 .title{
     font-size: 2.8rem;
@@ -238,6 +235,13 @@ main{
     }
     .feature-description{
     width: 100%;
+    }
+
+    .feature-title{
+        border-bottom: 3px solid rgb(255, 144, 14);
+        border-left: none;
+        font-size: 2rem;
+        padding-bottom: 10px;
     }
 
     
