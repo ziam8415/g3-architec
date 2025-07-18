@@ -316,6 +316,7 @@ footer{
 
     
     .features-img{
+        margin: 20px 5px;
     max-width: 100%;
     }
 
@@ -359,6 +360,10 @@ footer{
     .company-container{
         flex-direction: column;
         align-items: center;
+    }
+
+    .title{
+        font-size: 1.8 rem;
     }
 
 
